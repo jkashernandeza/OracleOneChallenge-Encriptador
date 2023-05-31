@@ -1,0 +1,104 @@
+/* Estilo para encriptador */
+
+.principal {
+    font-family: 'Raleway', sans-serif;
+    background: #E9ECF8;
+    padding-bottom: 10px;
+}
+
+.logo {
+    display: block;
+    width: 33px;
+    height: auto;
+    padding: 25px 45px;
+}
+
+.form-mensaje {
+    display: inline-block;
+    width: 55%;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+.mensaje {
+    display: block;
+    height: 12em;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    overflow: hidden;
+    resize: both;
+    color: #0A3871;
+    min-height: 2em;
+    line-height: 1.5em;
+}
+
+.mensaje[contenteditable]:empty::before {
+    content: "Ingrese el texto aqui";
+    color: #356EA9;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.nota {
+    counter-reset: #052051;
+    display: block;
+    margin-top: 10px;
+}
+
+.btn {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 10px 5px 0px;
+    width: 35%;
+    height: 4em;
+    border: 1px solid #052051;
+}
+
+.btn-encriptar {
+    border-radius: 20px;
+    background: #0A3871;
+}
+
+.btn-encriptar:hover {
+    background: #356EA9;
+}
+
+.btn-desencriptar {
+    border-radius: 20px;
+    background: #D8DFE8;
+}
+
+.btn-desencriptar:hover {
+    background: #609ED4;
+}
+
+.respuesta {
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    text-align: center;
+    background: #f8f8fa;
+    width: 25%;
+    padding-bottom: 10%;
+}
+
+.buscando-img {
+    padding-top: 50%;
+    width: 80%;
+}
+
+#no-mensaje-1 {
+    display: block;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#no-mensaje-2 {
+    display: block;
+    font-size: 1em;
+}

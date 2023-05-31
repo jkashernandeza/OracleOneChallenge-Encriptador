@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Datos de la página -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
-    
-
+    <!-- Estilos -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <!-- Scripts -->
+    <script type="text/javascript" src="../js/main.js"></script>
 </head>
-<body>
-    
+
+<body class="principal">
+    <main>
+        <img src="../../img/logo.png" alt="Alura Logo" class="logo">
+        <form class="form-mensaje">
+            <span class="mensaje" id="mensaje" contenteditable></span>
+            <span class="nota">&#128712 Sólo letras minusculas y sin acentos</span>
+            <button class="btn btn-encriptar">Encriptar</button>
+            <button class="btn btn-desencriptar">Desencriptar</button>
+        </form>
+        <div class="respuesta">
+            <img class="buscando-img" src="../../img/buscando.png" alt="Buscando">
+            <span id="no-mensaje-1">Ningún Mensaje fue encontrado</span>
+            <span id="no-mensaje-2">Ingresa el texto que desas Encriptar o desencriptar</span>
+            <span id="mensaje-procesado"></span>
+        </div>
+    </main>
 </body>
+
 </html>
