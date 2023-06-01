@@ -96,9 +96,61 @@
     display: block;
     font-size: 1.3em;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 #no-mensaje-2 {
     display: block;
     font-size: 1em;
+}
+
+@media screen and (max-width:540px), screen and (min-width:416px) {
+
+    .form-mensaje {
+        display: block;
+        width: 80%;
+    }
+
+    .btn {
+        margin: 10px 2%;
+        width: 45%;
+    }
+
+    .respuesta {
+        display: block;
+        width: 80%;
+        position: static;
+        margin: 5px auto;
+        padding: 30px 0px;
+    }
+
+    .buscando-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:415px) {
+
+    .form-mensaje {
+        display: block;
+        width: 80%;
+    }
+
+    .btn {
+        display: block;
+        margin: 10px 2%;
+        width: 100%;
+    }
+
+    .respuesta {
+        display: block;
+        width: 80%;
+        position: static;
+        margin: 5px auto;
+        padding: 30px 0px;
+    }
+
+    .buscando-img {
+        display: none;
+    }
 }
