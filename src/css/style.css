@@ -104,7 +104,7 @@
     font-size: 1em;
 }
 
-@media screen and (max-width:540px), screen and (min-width:416px) {
+@media screen and (min-width:416px) and (max-width:912px) {
 
     .form-mensaje {
         display: block;
